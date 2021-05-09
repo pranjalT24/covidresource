@@ -38,7 +38,7 @@ function About(props) {
            </div>
          
        <div className="row">
-       <div class="col-lg-6 col-md-6 mb-lg-0 mb-5 text-center">
+       <div class="col-lg-4 col-md-4 mb-lg-0 mb-5 text-center">
       <div class="avatar mx-auto">
         <img src={pimg} class="rounded-circle z-depth-1"
           alt="Sample avatar" />
@@ -60,12 +60,34 @@ function About(props) {
         </a>
       </ul>
     </div>
-       <div class="col-lg-6 col-md-6 mb-lg-0 mb-5 text-center">
+       <div class="col-lg-4 col-md-4 mb-lg-0 mb-5 text-center">
       <div class="avatar mx-auto">
         <img src={jimg} class="rounded-circle z-depth-1"
           alt="Sample avatar" />
       </div>
       <h5 class="font-weight-bold mt-4 mb-3">Vaibhav Soni</h5>
+      <p class="text-uppercase blue-text"><strong>Web Designer</strong></p>
+      <p class="grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+        adipisci sed quia non numquam modi tempora eius.</p>
+      <ul class="list-unstyled mb-0">
+        <a class="p-2 fa-lg fb-ic">
+          <i class="fab fa-facebook-f blue-text"> </i>
+        </a>
+      
+        <a class="p-2 fa-lg tw-ic">
+          <i class="fab fa-twitter blue-text"> </i>
+        </a>
+        <a class="p-2 fa-lg ins-ic">
+          <i class="fab fa-instagram blue-text"> </i>
+        </a>
+      </ul>
+    </div>
+       <div class="col-lg-4 col-md-4 mb-lg-0 mb-5 text-center">
+      <div class="avatar mx-auto">
+        <img src={jimg} class="rounded-circle z-depth-1"
+          alt="Sample avatar" />
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3">Aanand Bhai</h5>
       <p class="text-uppercase blue-text"><strong>Web Designer</strong></p>
       <p class="grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
         adipisci sed quia non numquam modi tempora eius.</p>
