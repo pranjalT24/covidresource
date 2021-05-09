@@ -2,8 +2,9 @@ body {
     background-color: #EBEAEF
 }
 
-.container {
-    flex-wrap: wrap
+.container-signup {
+    flex-wrap: wrap;
+  
 }
 
 .card {
@@ -118,4 +119,10 @@ p.mb-1 {
 
 .cont-2{
     background-color: #31042d;
+}
+
+@media screen and (max-width:400px) {
+    .container-signup{  
+        transform: scale(0.8) !important;
+    }
 }

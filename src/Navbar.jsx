@@ -18,17 +18,19 @@ const Navbar = ({user})=> {
 
     return (
         <>
-   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-  <NavLink className="navbar-brand" to="/">Navbar</NavLink>
+   <nav className="navbar navbar-expand-lg navbar-dark">
+  <NavLink className="navbar-brand" to="/">CG-HELP</NavLink>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
- 
   <span style={{fontsize:"24px"}} className='fas' id="ticon">&#xf0c9;</span>
   </button>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav mr-auto">
+    <ul className="navbar-nav ml-auto">
       <li className="nav-item active">
         <NavLink className="nav-link" to="/">Home </NavLink>
+      </li>
+      <li className="nav-item active">
+        <NavLink className="nav-link" to="/about">About </NavLink>
       </li>
       {
         user?

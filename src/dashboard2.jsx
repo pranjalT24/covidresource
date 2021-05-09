@@ -18,8 +18,8 @@ const Dashboard=()=>{
             </div>
             </div>
             <div className="container ">
-           
-                <div className="container dash-cont3 cont-2 mt-3 p-5">
+  
+                <div className="container dash-cont3 cont-2x mt-3 p-5">
                 <form >
                 <div className="form-group">
     <label htmlFor="exampleInputPassword1" style={{color:"white"}}>Your Number</label>
@@ -39,8 +39,8 @@ const Dashboard=()=>{
             </div>
                 </div>
             
-<div className="container rounded bg-dark mt-5 py-2" >   
-<table class="table" >
+
+<table class="table table-sm table-sticky-header my-4">
   <thead class="thead-dark">
     <tr>
     <th scope="col">Resource</th>
@@ -59,7 +59,7 @@ const Dashboard=()=>{
   </tbody>
 </table>
            
-            </div>
+     
        
             </>
         ); 

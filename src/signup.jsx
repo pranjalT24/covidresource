@@ -47,7 +47,7 @@ const Signup = () => {
     
     return (
         <>
-      <div className="container d-flex justify-content-center my-5">
+      <div className="container container-signup d-flex justify-content-center my-5">
     <div className="d-flex flex-column justify-content-between">
         <div className="card mt-3 p-5">
             <div>

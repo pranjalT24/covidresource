@@ -6,6 +6,8 @@ import Login from "./login";
 import Dash from "./dashboard";
 import Dash2 from "./dashboard2";
 import Home from "./Home";
+import About from "./About";
+import Footer from "./Footer";
 import {auth} from "./firebase/firebase.js"
 
 const App=()=>{
@@ -24,13 +26,14 @@ const App=()=>{
         <Navbar user={authUser}/>
         <Switch>
         <Route exact path="/"><Home /></Route>
+        <Route exact path="/about"><About /></Route>
         <Route exact path="/signup"><Signup user={authUser} /></Route> 
         <Route exact path="/login"><Login user={authUser} /></Route>
         <Route exact path="/dashboard"> <Dash user={authUser} /></Route>
         <Route exact path="/dashboard2"> <Dash2 /></Route>
         <Redirect to="/" />
         </Switch>
-     
+        <Footer />
         </>
     );
 }
